@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.FormularioExamen{
+    width: 400px;
+    padding: 50px;
+    margin: auto; 
+    background-color: rgb(111, 139, 211);
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 6px solid rgb(113, 171, 238);
+    
+}
+
+
+.inputs{
+    padding: 7px;
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(244, 245, 247);
+}
+
+.enviar{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(206, 208, 214);
+    margin-left: 155px;
+    margin-top: 20px;
+}

@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registros</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+
+<nav>
+    <center>
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="Servicios.html">Servicios</a>
+    <a href="Registros.html">Registros</a>
+    <a href="Contactos.html">Contactos</a>
+    </center>
+</nav>
+
+
 <body>
-    
+
+    <form class="FormularioExamen" action="resultado.html" method="post" id="Formulario">
+        <br>
+        <br>
+    <class="Entradas">
+        <!--Input para web-->
+        <label for="web">Web:</label>
+        <input class="inputs" type="url" name="web" id="web" placeholder="WebSite">
+        
+        <!--Input para nombre-->
+        <label for="nombre">Nombre:</label>
+        <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+        <!--Input para Apellido-->
+        <label for="apellido">Apellido:</label>
+        <input class="inputs" name="apellido" id="apellido" placeholder="apellido">
+
+        <!--Input para Submit-->
+        <input class="enviar" type="submit" value="Subir">
+</form>
+
+
+
+
 </body>
 </html>
